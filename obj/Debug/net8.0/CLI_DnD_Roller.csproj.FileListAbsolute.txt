@@ -1,0 +1,17 @@
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/obj/Debug/net8.0/CLI_DnD_Roller.GeneratedMSBuildEditorConfig.editorconfig
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/obj/Debug/net8.0/CLI_DnD_Roller.AssemblyInfoInputs.cache
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/obj/Debug/net8.0/CLI_DnD_Roller.AssemblyInfo.cs
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/obj/Debug/net8.0/CLI_DnD_Roller.csproj.CoreCompileInputs.cache
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/bin/Debug/net8.0/CLI_DnD_Roller
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/bin/Debug/net8.0/CLI_DnD_Roller.deps.json
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/bin/Debug/net8.0/CLI_DnD_Roller.runtimeconfig.json
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/bin/Debug/net8.0/CLI_DnD_Roller.dll
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/bin/Debug/net8.0/CLI_DnD_Roller.pdb
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/obj/Debug/net8.0/CLI_DnD_Roller.dll
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/obj/Debug/net8.0/refint/CLI_DnD_Roller.dll
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/obj/Debug/net8.0/CLI_DnD_Roller.pdb
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/obj/Debug/net8.0/CLI_DnD_Roller.genruntimeconfig.cache
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/obj/Debug/net8.0/ref/CLI_DnD_Roller.dll
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/bin/Debug/net8.0/Spectre.Console.dll
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/obj/Debug/net8.0/CLI_DnD_Roller.csproj.AssemblyReference.cache
+/home/jboyett/Documents/dev/github/CLI_DnD_Roller/obj/Debug/net8.0/CLI_DnD_.786B625C.Up2Date

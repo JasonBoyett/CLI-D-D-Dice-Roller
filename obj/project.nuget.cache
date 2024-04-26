@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "p/3QoWZxfZhFdtTvOjPtqIurx52/Fra8kVXWz/Sy5SBL5D/xRnpBpWG9zCCxYlVPSOTlnbXF831n2FYUrh/JiQ==",
+  "success": true,
+  "projectFilePath": "/home/jboyett/Documents/dev/github/CLI_DnD_Roller/CLI_DnD_Roller.csproj",
+  "expectedPackageFiles": [
+    "/home/jboyett/.nuget/packages/spectre.console/0.49.1/spectre.console.0.49.1.nupkg.sha512"
+  ],
+  "logs": []
+}
