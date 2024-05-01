@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CLI_DnD_Roller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bad8d147eb1f180b989412c39522a5958c90677d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CLI_DnD_Roller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CLI_DnD_Roller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

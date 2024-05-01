@@ -7,50 +7,65 @@
 
 public class Roll
 {
-  public Dice[] dice { get; set; }
-  public int modifier { get; set; }
-  public RollType type { get; set; }
-  public List<int> results
+  private List<int> results = new List<int>();
+  public Dice[] Dice { get; set; }
+  public int Modifier { get; set; }
+  public RollType Type { get; set; }
+  public string Name { get; set; }
+  public List<int> Results
   {
     get
     {
-      var res = new List<int>();
-      foreach (Dice die in dice)
+      var resultList = new List<int>();
+      foreach (Dice die in Dice)
       {
-        res.Add(die.result);
+        resultList.Add(die.Result);
       }
-      return res;
+      return resultList;
     }
   }
 
-  public Roll(Dice[] dice, RollType type = RollType.Normal, int modifier = 0)
+  public Roll(
+    Dice[] dice,
+    RollType type = RollType.Normal,
+    int modifier = 0,
+    string name = ""
+  )
   {
-    this.modifier = modifier;
-    this.dice = dice;
-    this.type = type;
+    this.Modifier = modifier;
+    this.Dice = dice;
+    this.Type = type;
+    this.Name = name;
+  }
+  public Roll()
+  {
+    this.Modifier = 0;
+    this.Dice = new Dice[0];
+    this.Type = RollType.Normal;
+    this.Name = "";
   }
 
   public int RollDice()
   {
     int total = 0;
-    foreach (Dice die in dice)
+    foreach (Dice die in Dice)
     {
-      if (this.type == RollType.Advantage)
+      if (this.Type == RollType.Advantage)
       {
         total += Math.Max(die.Roll(), die.Roll());
         results.Add(total);
       }
-      else if (this.type == RollType.Disadvantage)
+      else if (this.Type == RollType.Disadvantage)
       {
         total += Math.Min(die.Roll(), die.Roll());
-        results.Add(total);
+        Results.Add(total);
       }
       else
       {
         total += die.Roll();
-        results.Add(total);
+        Results.Add(total);
       }
     }
-    return total + this.modifier;
+    return total + this.Modifier;
   }
 }

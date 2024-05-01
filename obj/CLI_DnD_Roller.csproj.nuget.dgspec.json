@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/jboyett/Documents/dev/github/CLI_DnD_Roller/CLI_DnD_Roller.csproj": {}
+    "/Users/jasonboyett/Documents/Coding/GitHub/CLI-Dice-Roller/CLI_DnD_Roller.csproj": {}
   },
   "projects": {
-    "/home/jboyett/Documents/dev/github/CLI_DnD_Roller/CLI_DnD_Roller.csproj": {
+    "/Users/jasonboyett/Documents/Coding/GitHub/CLI-Dice-Roller/CLI_DnD_Roller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jboyett/Documents/dev/github/CLI_DnD_Roller/CLI_DnD_Roller.csproj",
+        "projectUniqueName": "/Users/jasonboyett/Documents/Coding/GitHub/CLI-Dice-Roller/CLI_DnD_Roller.csproj",
         "projectName": "CLI_DnD_Roller",
-        "projectPath": "/home/jboyett/Documents/dev/github/CLI_DnD_Roller/CLI_DnD_Roller.csproj",
-        "packagesPath": "/home/jboyett/.nuget/packages/",
-        "outputPath": "/home/jboyett/Documents/dev/github/CLI_DnD_Roller/obj/",
+        "projectPath": "/Users/jasonboyett/Documents/Coding/GitHub/CLI-Dice-Roller/CLI_DnD_Roller.csproj",
+        "packagesPath": "/Users/jasonboyett/.nuget/packages/",
+        "outputPath": "/Users/jasonboyett/Documents/Coding/GitHub/CLI-Dice-Roller/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jboyett/.nuget/NuGet/NuGet.Config"
+          "/Users/jasonboyett/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -43,9 +43,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Spectre.Console": {
               "target": "Package",
               "version": "[0.49.1, )"
+            },
+            "WatsonORM.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.8, )"
             }
           },
           "imports": [
@@ -64,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

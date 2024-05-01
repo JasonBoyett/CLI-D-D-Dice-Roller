@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CLI_DnD_Roller
-build_property.ProjectDir = /home/jboyett/Documents/dev/github/CLI_DnD_Roller/
+build_property.ProjectDir = /Users/jasonboyett/Documents/Coding/GitHub/CLI-Dice-Roller/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

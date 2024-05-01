@@ -1,0 +1,91 @@
+﻿# Visual Studio temporary files
+.vs/
+*.vscode/
+*/bin/
+*/obj/
+*.user
+*.suo
+*.cache
+
+# Rider IDE
+.idea/
+
+# Compiled files
+*.dll
+*.exe
+
+# NuGet Packages
+*.nupkg
+*.paket/
+*.paket.restore/
+/packages/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Mm][Dd]64/
+[Aa][Mm][Dd]/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Tt]emp/
+[Tt]estResults/
+[Rr]eports/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Mm][Dd]64/
+[Aa][Mm][Dd]/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Rider files
+.idea/
+*.sln.iml
+*.sln.ide
+*.sln.iml
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
